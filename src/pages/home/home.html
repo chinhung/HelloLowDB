@@ -1,14 +1,12 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Ｈello LowDB
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <database [name]="db1.name" [encrypt-type]="db1.encryptType"></database>
+  <database [name]="db2.name" [encrypt-type]="db2.encryptType"></database>
 </ion-content>
